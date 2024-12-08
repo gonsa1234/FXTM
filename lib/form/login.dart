@@ -97,7 +97,7 @@ class LoginFormState extends State<LoginForm> {
   }
 
   void _loginUser() async {
-  final file = File('C:/Users/donzd/Documents/flutter projects/fx_analysis/lib/json/users.json');
+  final file = File('C:/Users/gonca/Documents/Projects/FXTM/lib/json/users.json');
 
   if (await file.exists()) {
     final String contents = await file.readAsString();
